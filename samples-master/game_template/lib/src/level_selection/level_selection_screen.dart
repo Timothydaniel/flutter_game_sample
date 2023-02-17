@@ -63,7 +63,7 @@ class LevelSelectionScreen extends StatelessWidget {
           onPressed: () {
             GoRouter.of(context).go('/');
           },
-          child: const Text('Back'),
+          child: const Text('Balik'),
         ),
       ),
     );

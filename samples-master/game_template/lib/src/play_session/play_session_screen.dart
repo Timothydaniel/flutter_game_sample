@@ -76,8 +76,8 @@ class _PlaySessionScreenState extends State<PlaySessionScreen> {
                       ),
                     ),
                     const Spacer(),
-                    Text('Drag the slider to ${widget.level.difficulty}%'
-                        ' or above!'),
+                    Text('geser garisnya ${widget.level.difficulty}%'
+                        ' ato lebih tinggi lagi!'),
                     Consumer<LevelState>(
                       builder: (context, levelState, child) => Slider(
                         label: 'Level Progress',
@@ -95,7 +95,7 @@ class _PlaySessionScreenState extends State<PlaySessionScreen> {
                         width: double.infinity,
                         child: FilledButton(
                           onPressed: () => GoRouter.of(context).go('/play'),
-                          child: const Text('Back'),
+                          child: const Text('Balik woi'),
                         ),
                       ),
                     ),
